@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Service Management Platform</title>
+    <meta name="description" content="Unified AI-assisted campus grievance and service request management system with dedicated Student and Administrative portals, real-time shared database, and camera image capture." />
+    <meta property="og:title" content="Campus Service Management Platform" />
+    <meta property="og:description" content="Unified AI-assisted campus grievance and service request management system with dedicated Student and Administrative portals, real-time shared database, and camera image capture." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var origFetch = window.fetch ? window.fetch.bind(window) : undefined;
+          var activeFetch = origFetch;
+          try {
+            Object.defineProperty(window, 'fetch', {
+              get: function() {
+                return activeFetch || origFetch;
+              },
+              set: function(fn) {
+                activeFetch = fn;
+              },
+              configurable: true,
+              enumerable: true
+            });
+          } catch (e1) {
+            try {
+              Object.defineProperty(Window.prototype, 'fetch', {
+                get: function() {
+                  return activeFetch || origFetch;
+                },
+                set: function(fn) {
+                  activeFetch = fn;
+                },
+                configurable: true,
+                enumerable: true
+              });
+            } catch (e2) {}
+          }
+        } catch (err) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

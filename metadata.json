@@ -1,0 +1,6 @@
+{
+  "name": "Campus Service Management Platform",
+  "description": "Unified AI-assisted campus grievance and service request management system with dedicated Student and Administrative portals, real-time shared database, and camera image capture.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

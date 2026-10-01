@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --color-primary: #E21B23;
+  --color-primary-hover: #C8141B;
+  --color-primary-active: #B51016;
+  --color-primary-light: #FEF2F2;
+  --color-primary-subtle: #FEE2E2;
+  --color-primary-border: #FECACA;
+  --color-primary-dark: #991B1B;
+}
+
+:root {
+  --primary: #E21B23;
+  --primary-hover: #C8141B;
+  --primary-active: #B51016;
+  --primary-light: #FEF2F2;
+  --primary-subtle: #FEE2E2;
+  --primary-border: #FECACA;
+  --primary-dark: #991B1B;
+}
+
+@layer base {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #F8FAFC;
+    color: #1E293B;
+  }
+}
+
+/* Vibrant Pastel Palette helper classes for semantic statuses */
+.pastel-green {
+  background-color: #D1FAE5 !important;
+  color: #065F46 !important;
+  border-color: #A7F3D0 !important;
+}
+
+.pastel-yellow {
+  background-color: #FEF3C7 !important;
+  color: #92400E !important;
+  border-color: #FDE68A !important;
+}
+
+.pastel-red {
+  background-color: #FEE2E2 !important;
+  color: #991B1B !important;
+  border-color: #FECACA !important;
+}
+
+.pastel-blue {
+  background-color: #DBEAFE !important;
+  color: #1E40AF !important;
+  border-color: #BFDBFE !important;
+}
+
+.pastel-indigo {
+  background-color: #E0E7FF !important;
+  color: #3730A3 !important;
+  border-color: #C7D2FE !important;
+}
+
+.pastel-slate {
+  background-color: #F1F5F9 !important;
+  color: #334155 !important;
+  border-color: #E2E8F0 !important;
+}
